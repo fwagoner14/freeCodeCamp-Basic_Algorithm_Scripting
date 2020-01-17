@@ -1,0 +1,6 @@
+function titleCase(str) {
+  return str.toLowerCase().replace(/(^|\s)\S/g, U => U.toUpperCase());
+ 
+}
+
+titleCase("I'm a little tea pot");
